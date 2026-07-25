@@ -23,7 +23,7 @@ const Login = ({ onLogin }) => {
     setError('');
 
     try {
-      const response = await fetch('http://localhost:5001/api/auth/login', {
+      const response = await fetch('https://my-portfolio-0n5b.onrender.com/api/auth/login', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',

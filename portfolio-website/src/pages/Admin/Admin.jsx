@@ -19,7 +19,7 @@ const Admin = () => {
 
   const verifyToken = async (token) => {
     try {
-      const response = await fetch('http://localhost:5001/api/auth/verify', {
+      const response = await fetch('https://my-portfolio-0n5b.onrender.com/api/auth/verify', {
         headers: {
           'Authorization': `Bearer ${token}`
         }

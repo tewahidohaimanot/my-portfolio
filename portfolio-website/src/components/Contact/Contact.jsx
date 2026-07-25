@@ -23,7 +23,7 @@ const Contact = () => {
     setStatus('sending');
     
     try {
-      const response = await fetch('http://localhost:5001/api/contact/send', {
+      const response = await fetch('https://my-portfolio-0n5b.onrender.com/api/contact/send', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',

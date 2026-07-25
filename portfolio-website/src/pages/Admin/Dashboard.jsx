@@ -17,7 +17,7 @@ const Dashboard = ({ onLogout }) => {
     setLoading(true);
     try {
       // Fetch stats
-      const statsResponse = await fetch('http://localhost:5001/api/admin/stats', {
+      const statsResponse = await fetch('https://my-portfolio-0n5b.onrender.com/api/admin/stats', {
         headers: {
           'Authorization': `Bearer ${token}`
         }
@@ -28,7 +28,7 @@ const Dashboard = ({ onLogout }) => {
       }
 
       // Fetch recent contacts
-      const contactsResponse = await fetch('http://localhost:5001/api/admin/contacts/recent?limit=10', {
+      const contactsResponse = await fetch('https://my-portfolio-0n5b.onrender.com/api/admin/contacts/recent?limit=10', {
         headers: {
           'Authorization': `Bearer ${token}`
         }

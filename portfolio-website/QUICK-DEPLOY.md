@@ -47,9 +47,7 @@ git commit -m "Portfolio ready for deployment"
 # Create repo on GitHub.com, then:
 git remote add origin https://github.com/tewahidohaimanot/my-portfolio.git
 git push -u origin main
-```
 
----
 
 ### **STEP 2: Deploy Backend (10 min)**
 
